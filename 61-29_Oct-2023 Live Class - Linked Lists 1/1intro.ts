@@ -200,7 +200,7 @@ ll.display();
 console.log("We have removed the first node which is - "+ll.removeFirst());
 ll.display();
 
-console.log(ll.getAt(4).val);
+console.log(ll.getAt(4)?.val);
 ll.display();
 
 ll.addAt(2, 5000);
