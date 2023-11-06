@@ -10,6 +10,7 @@ function isPalindrome(s) {
     }
     return true;
 }
+console.log(isPalindrome("naman"));
 function printPalindromicSubstring(s) {
     for (var i = 0; i < s.length; i++) {
         for (var j = i; j < s.length; j++) {

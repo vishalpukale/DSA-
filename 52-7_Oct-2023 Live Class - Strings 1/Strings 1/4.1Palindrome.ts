@@ -12,6 +12,8 @@ function isPalindrome(s: string): boolean {
     return true;
 }
 
+console.log(isPalindrome(s));
+
 
 function printPalindromicSubstring(s: string) : void {
 

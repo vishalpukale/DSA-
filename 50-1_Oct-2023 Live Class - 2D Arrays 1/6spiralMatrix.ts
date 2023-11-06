@@ -28,6 +28,7 @@ function spiralMatrix(arr : number[][]) : number[] {
             total--;
         } 
         tw++;
+        
 
         //Print right wall
         for(let i = tw; i<=bw && total > 0; i++){
@@ -36,12 +37,14 @@ function spiralMatrix(arr : number[][]) : number[] {
         }
         rw--;
 
+
         //Print bottom wall
         for(let j = rw; j>=lw && total > 0; j--){
             ans.push(arr[bw][j]);
             total--;
         }
         bw--;
+
 
         //Print left wall
         for(let i = bw; i>=tw && total > 0; i--){

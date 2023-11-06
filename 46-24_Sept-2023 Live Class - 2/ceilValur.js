@@ -18,4 +18,4 @@ function getCeil(arr, target) {
     }
     return ceil;
 }
-console.log(getCeil(arr, 1));
+console.log(getCeil(arr, 21));
