@@ -26,8 +26,8 @@ function getIntersectionNode(headA: ListNode | null, headB: ListNode | null): Li
     let sz1 = getSize(headA);
     let sz2 = getSize(headB);
 
-    let t1 = headA;
-    let t2 = headB;
+    let t1: any = headA;
+    let t2: any = headB;
 
     if(sz1 > sz2){
         while(sz1 > sz2){
