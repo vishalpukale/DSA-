@@ -8,9 +8,10 @@
  }
 
 function middleNode(head: ListNode | null): ListNode | null {
+    if(head == null) return null;  
     
-    let fast =head;
-    let slow =head;
+    let fast: any =head;
+    let slow: any =head;
 
     while(fast != null && fast.next != null) {
         slow = slow.next;
