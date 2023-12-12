@@ -48,3 +48,10 @@ function getIntersectionNode(headA: ListNode | null, headB: ListNode | null): Li
 
     return t1;
 }
+
+
+
+
+
+
+///Leet code proble no 160
