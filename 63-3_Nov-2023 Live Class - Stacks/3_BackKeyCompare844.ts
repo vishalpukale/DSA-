@@ -27,4 +27,4 @@ function backspaceCompare(s: string, t: string): boolean {
 
 
 
-backspaceCompare(s, t)
+console.log(backspaceCompare(s, t));
